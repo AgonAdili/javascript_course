@@ -1,0 +1,5 @@
+First, you need to add a button in HTML where you have to create a circle when clicking it.
+
+After you finish the circle in the same way you should create two different shapes let’s say rectangle and triangle which means you need to add two more buttons in HTML and while clicking it should create its shape.
+
+When clicking the shape itself then that shape should be hidden.
