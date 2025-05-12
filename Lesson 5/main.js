@@ -44,10 +44,36 @@
 //     }
 // }
 
-var input = document.querySelector('input');
-var button = document.getElementById('button_id');
-var text = document.getElementById('text_id');
+// var input = document.querySelector('input');
+// var button = document.getElementById('button_id');
+// var text = document.getElementById('text_id');
 
-button.onclick = function(){
-    text.innerHTML = input.value;
-}
+// button.onclick = function(){
+//     text.innerHTML = input.value;
+// }
+
+// CHALLENGE
+// Useri duhet te jape 2 vlera numerike nepermjet input fields-ave dhe per ato 2 vlera numerike te llogaritet shuma. Shuma te behet display duke perdorur heading tag.
+
+// psh.
+// First Number: 5
+// Second Number: 7
+// Rezultati: 12
+
+// var input_1 = document.getElementById('num_1');
+// var input_2 = document.getElementById('num_2');
+// var output = document.getElementById('sum');
+// var button = document.getElementById('calculate');
+
+// button.addEventListener('click', function(){
+//     output.innerHTML = "Rezultati: " + (parseInt(input_1.value) + parseInt(input_2.value));
+// });
+
+var vlera_a = document.getElementById('value1');
+var vlera_b = document.getElementById('value2');
+var button = document.getElementById('btn_id');
+var rezultati = document.getElementById('solution');
+
+button.addEventListener('click', function(){
+    rezultati.innerHTML = 'Rezultati: ' + parseInt(Math.sqrt((parseInt(vlera_a.value) ** 2) + (parseInt(vlera_b.value) ** 2)));
+});
