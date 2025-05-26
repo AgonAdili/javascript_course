@@ -1,0 +1,7 @@
+Challenge 1. 
+Try to create a for loop to be repeated based on the length of an array without a static number. 
+For instance, if you have an array with 8 elements, the loop will have to print each element one by one. 
+
+
+Challenge 2. 
+Try to create an input in index.html that adds names in the array and show them all in the index.html. You need to have 2 buttons, an Add and a Show button. Upon clicking Add, the name from the input field should be added to the array. By clicking the Show button, all the elements of the array need to be displayed in the index.html.
