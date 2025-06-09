@@ -1,0 +1,101 @@
+/* Descendant Combinator ( ) */
+article p{
+    background: blue;
+    color: white;
+    padding: 20px;
+}
+
+/* Child Combinator (>) */
+article > p{
+    background: red;
+}
+
+/* General Sibling Combinator (~) */
+article ~ p{
+    background: purple;
+    color: white;
+    padding: 20px;
+}
+
+/* Adjacent Sibling Combinator (+) */
+article + p{
+    background: orange;
+}
+
+/* 
+Pseudo Classes syntax
+
+selector:pseudo-class{
+    property: value;
+} 
+*/
+
+h3:first-child{
+    background-color: green;
+    color: white;
+    padding: 20px;
+}
+
+input:in-range{
+    border: 3px solid green;
+}
+
+input:out-of-range{
+    border: 3px solid red;
+}
+
+input:required{
+    background-color: lightpink;
+}
+
+input:focus{
+    background-color: blueviolet;
+    color: white;
+}
+
+p:first-of-type{
+    background: black;
+    color: white;
+    padding: 10px;
+}
+
+input:invalid{
+    border: 5px solid red;
+}
+
+input:valid{
+    border: 5px solid green;
+}
+
+a{
+    font-size: 25px;
+    color: black;
+    text-decoration: none;
+}
+
+a:hover{
+    color: greenyellow;
+    text-decoration: underline;
+}
+
+a:active{
+    background: brown;
+}
+
+/* Pseudo-elements */
+h1::before{
+    content: url('favicon_io/favicon-16x16.png');
+}
+
+h1::after{
+    content: url('favicon_io/favicon-16x16.png');
+}
+
+h2::selection{
+    color: white;
+    background-color: red;
+}
+
+article{
+    opacity: 0.2;
+}

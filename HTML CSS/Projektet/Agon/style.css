@@ -1,0 +1,689 @@
+/* General Style */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    
+    
+}
+html {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+/*header*/
+header {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    border-bottom: 0.2px solid rgb(73, 72, 72);
+}
+
+/* Logo Styling */
+.logo img {
+    width: 150px;
+    padding-left: 20px;
+}
+
+/* Desktop Navigation */
+nav ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #f40f0f;
+    text-decoration: none;
+    padding: 10px 15px;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    background-color: #f40f0f;
+    color: white;
+    border-radius: 5px;
+}
+
+/* Hamburger Menu Button (Hidden by Default) */
+.menu-toggle {
+    display: none;
+    font-size: 28px;
+    cursor: pointer;
+    padding-left: 200px;
+    
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    .menu-toggle {
+        display: block;
+    }
+
+    nav {
+        width: 100%;
+    }
+
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        background-color: white;
+        width: 100%;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        text-align: center;
+        padding: 10px 0;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .nav-links li {
+        padding: 10px 0;
+    }
+
+    .nav-links.show {
+        display: flex;
+    }
+}
+
+header {
+    text-align: center;
+    
+}
+
+
+/* Container for Image */
+.wall2 {
+    display: inline-block; /* Keep text inline */
+    font-size: 3vw; /* Responsive font size */
+    font-weight: 800;
+    font-family: "Proxima Nova W10", Arial, Helvetica, sans-serif;
+    text-align: left;
+
+    
+    width: 100%;
+    max-width: 1500px;
+}
+
+/* Responsive Image */
+.wall2 img {
+    width: 100%;
+    max-width: 1500px;
+    height: auto;
+    object-fit: cover;
+    display: block;
+}
+
+/* Button Styling */
+.button1 {
+    width: 80%;
+    max-width: 500px;
+    height: 50px;
+    background-color: black;
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: white;
+    font-family: Georgia, serif;
+    margin: 20px auto;
+    display: block;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    margin-left: 1px;
+}
+
+/* Button Hover Effect */
+.button1:hover {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    .wall2 {
+        font-size: 5vw; /* Larger text on smaller screens */
+    }
+
+    .button1 {
+        font-size: 1rem;
+        width: 90%;
+    }
+}
+
+.link:hover{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+
+}
+.button1:hover{
+    width: 500px;
+    height: 50px;
+    background-color:rgb(255, 255, 255);
+    font-weight: bold;
+    color:rgb(0, 0, 0);
+    font-family: Georgia, serif;
+    text-decoration:none
+}
+#homeimg{
+    width: 50%;
+    height: 50%;
+    
+}
+section {
+   padding: 20px;
+}
+
+
+/*About page*/
+
+/* General Styling for the About Section */
+.aboutwall {
+    margin: 0;
+    margin-left: 1px;
+    float: right;
+}
+
+.text {
+    position: absolute;
+    top: 50%;
+    left: 20px;
+    transform: translateY(-50%);
+    writing-mode: vertical-lr;
+    text-orientation: sideways-right;
+    font-family: serif;
+    color: #000000;
+    background-color: white;
+    padding: 10px;
+    font-size: 40px;
+    font-weight: 400;
+}
+
+/* Teksti Section Styling */
+.teksti {
+    display: flex;
+    margin-top: 700px;
+    margin-left: 300px;
+    margin-right: 500px;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+/* Images in the About Section */
+.aboutp {
+    width: 70%;
+}
+
+.aboutpd {
+    width: 40%;
+    float: left;
+    margin-right: 20px;
+}
+
+/* Text block on the right */
+.abtext {
+    float: right;
+    width: 55%;
+}
+
+/* Paragraphs inside the About Section */
+p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.abp {
+    margin-right: 770px;
+    margin-top: 40px;
+    font-size: 60px;
+    font-weight: 900;
+    font-family: Georgia, serif;
+}
+
+.utext {
+    float: right;
+    margin-right: 100px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+/* Button Styling */
+.button2 {
+    width: 500px;
+    height: 50px;
+    background-color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: large;
+    color: rgb(255, 255, 255);
+    font-family: Georgia, serif;
+    margin-top: 70px;
+    padding-left: 10px;
+    align-items: start;
+    margin-bottom: 10px;
+}
+
+.link {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.link:hover {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.button2:hover {
+    width: 500px;
+    height: 50px;
+    background-color: rgb(255, 255, 255);
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    font-family: Georgia, serif;
+    text-decoration: none;
+}
+
+/* Responsive Design - Mobile and Tablets */
+@media screen and (max-width: 768px) {
+    .text {
+        font-size: 30px;  /* Adjust text size */
+        padding: 5px;  /* Smaller padding for mobile */
+    }
+
+    .teksti {
+        margin-top: 500px;
+        margin-left: 30px;
+        margin-right: 30px;
+        font-size: 18px;  /* Slightly smaller font for mobile */
+    }
+
+    .aboutp {
+        width: 100%;  /* Take full width for mobile */
+        max-width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .aboutpd {
+        width: 100%;  /* Make the second image full width */
+        max-width: 100%;
+        margin-right: 0;
+    }
+
+    .abtext {
+        float: none;  /* Remove float to make text stack vertically */
+        width: 100%;  /* Take full width */
+        text-align: center;  /* Center the text */
+        margin-top: 20px;
+    }
+
+    .abp {
+        margin-right: 0;  /* Center the title */
+        font-size: 40px;  /* Smaller font size */
+        text-align: center;
+    }
+
+    .utext {
+        font-size: 16px;  /* Smaller font size */
+        margin-right: 0;  /* Remove margin for centering */
+        text-align: center;  /* Center the text */
+    }
+
+    .button2 {
+        width: 90%;  /* Full width button */
+        max-width: 400px;  /* Ensure it doesn't stretch too wide */
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+
+/* Product and Shop Styles */
+.shop {
+    text-align: center;
+    padding: 50px 20px;
+}
+h2{
+    font-size: 50px;
+    font-weight: 700;
+}
+.product-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+
+.product {
+    background-color: #fff;
+    padding: 20px;
+    width: 400px;
+    margin: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px  10px 10px rgba(0, 0, 0, 0.1);
+    
+}
+
+
+.product img {
+    width: 100%;
+    border-radius: 4px;
+}
+
+.product h3 {
+    font-size: 1.5rem;
+    margin: 15px 0;
+}
+
+.add-to-cart-p {
+    background-color: #f40f0f;
+    color: white;
+    padding: 10px;
+    font-size: 2rem;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.add-to-cart:hover {
+    background-color: #e67e22;
+}
+/*products style*/
+
+
+/* General Container Styling */
+.container {
+    display: flex;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0);
+    flex-wrap: wrap; /* Ensures elements wrap on small screens */
+}
+
+h4 {
+    font-size: 30px;
+    font-weight: 300;
+}
+
+/* Product Image Styling */
+.product-image img {
+    max-width: 800px;
+    border-radius: 10px;
+    border: #000000 1px solid;
+    box-shadow: 0px 2px 5px 0px;
+    padding: 5px;
+}
+
+/* Product Info Section */
+.product-info {
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+h1 {
+    font-size: 40px;
+    margin: 0;
+}
+
+.price {
+    font-size: 20px;
+    color: #000000;
+}
+
+.size-selector h3 {
+    margin-top: 15px;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+.option-btn {
+    background: #ddd;
+    margin: 5px 5px 10px 0;
+    padding: 8px 12px;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    border-radius: 5px;
+}
+
+.add-to-cart {
+    background: #f40f0f;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 20px;
+    padding: 8px 12px;
+    border: none;
+    cursor: pointer;
+    font-size: 35px;
+    border-radius: 5px;
+}
+
+.find-in-store {
+    background: #f40f0f;
+    color: white;
+    font-weight: bold;
+    margin: 5px 5px 10px 0;
+    padding: 8px 12px;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    border-radius: 5px;
+}
+
+.delivery-info {
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+.delivery-info a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+/* Responsive Design - Mobile and Tablets */
+@media screen and (max-width: 768px) {
+    .container {
+        flex-direction: column; /* Stack the image and product info */
+        align-items: center;
+        padding: 10px;
+    }
+
+    .product-image img {
+        width: 100%;  /* Make image take full width on mobile */
+        height: 100%;
+    }
+
+    .product-info {
+        margin-left: 0;  /* Remove left margin for mobile */
+        margin-top: 20px;
+        align-items: center; /* Center content on mobile */
+        text-align: center; /* Center the text */
+    }
+
+    h1 {
+        font-size: 30px;  /* Smaller title font size for mobile */
+    }
+
+    .price {
+        font-size: 18px;  /* Adjust font size for better readability */
+    }
+
+    .size-selector h3 {
+        font-size: 18px;  /* Make size heading smaller */
+    }
+
+    .option-btn {
+        font-size: 12px;  /* Smaller button text for mobile */
+        padding: 6px 10px;
+    }
+
+    .add-to-cart {
+        font-size: 20px;  /* Adjust button size */
+        padding: 10px 20px;
+        width: 90%;  /* Make button full width */
+        max-width: 400px;  /* Ensure the button doesn't stretch too wide */
+    }
+
+    .find-in-store {
+        font-size: 14px;  /* Adjust button size */
+        width: 90%;  /* Make button full width */
+        max-width: 400px;
+    }
+
+    .delivery-info {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    h1 {
+        font-size: 24px;  /* Adjust title font for very small screens */
+    }
+
+    .price {
+        font-size: 16px;  /* Adjust price text for very small screens */
+    }
+
+    .option-btn {
+        font-size: 10px;  /* Even smaller button text */
+        padding: 5px 8px;
+    }
+
+    .add-to-cart {
+        font-size: 18px;  /* Smaller button font size */
+        padding: 8px 16px;
+    }
+
+    .find-in-store {
+        font-size: 12px;  /* Adjust font size */
+        padding: 6px 10px;
+    }
+}
+
+/*contact style*/
+footer {
+    background-color: #111;
+    color: white;
+    padding: 40px 20px;
+    font-family: Arial, sans-serif;
+    
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.newsletter {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.newsletter h4 {
+    font-size: 14px;
+    color: #bbb;
+}
+
+.newsletter h2 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.newsletter form {
+    display: flex;
+    margin-top: 10px;
+}
+
+.newsletter input {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 5px 0 0 5px;
+}
+
+.newsletter button {
+    background: red;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+}
+
+
+.footer-links {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
+.footer-column {
+    flex: 1;
+    min-width: 200px;
+    margin: 10px 0;
+}
+
+.footer-column h3 {
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.footer-column ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-column ul li {
+    margin: 5px 0;
+}
+
+.footer-column ul li a {
+    color: #bbb;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.footer-column ul li a:hover {
+    color: rgb(255, 255, 255);
+}
+
+.footer-bottom {
+    text-align: center;
+    padding-top: 20px;
+    font-size: 12px;
+    color: #888;
+}
+
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    nav ul {
+        padding: 10px;
+    }
+    
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+    
+    table {
+        width: 100%;
+    }
+}
+
+
+

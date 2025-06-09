@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bent Chetler 120 - Product Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="Img1/Atomic_ski_logo.png" width="100px" alt="Logo">
+        </div>
+    
+        <!-- Hamburger Menu Button -->
+        <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+    
+        <!-- Navigation Bar -->
+        <nav>
+            <ul class="nav-links">
+                <li><a href="home.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <script>
+            function toggleMenu() {
+                document.querySelector(".nav-links").classList.toggle("show");
+            }
+        </script>
+    </header>
+    <div class="container">
+        <div class="product-image">
+            <img src="Img1/akiprodukt3 - Copy.webp" width="800px" height="600px" alt="Bent Chetler 120 Skis">
+        </div>
+        <div class="product-info">
+            <h1>BENT CHETLER 120</h1>
+            <p class="price">$749.99 <span>Incl. Taxes</span></p>
+            
+            <div class="size-selector">
+                <h3>Size</h3>
+                <button>176</button>
+                <button>184</button>
+                <button>192</button>
+            </div>
+
+            <div class="add-options">
+                <button class="option-btn">Add Binding</button>
+                <button class="option-btn">Add Skin</button>
+            </div>
+        <h4>The Atomic Backland 109 is an excellent choice for advanced skiers seeking a versatile, lightweight backcountry ski. With a 109mm waist, it offers ideal flotation in deep powder while maintaining stability on variable terrain. The ski features a lightweight core with poplar wood and carbon, reducing weight without sacrificing strength. The rockered tip and tail provide great float in soft snow, while the camber underfoot offers edge grip on firmer terrain. Whether you're skiing powder in the backcountry or tackling mixed snow, the Backland 109 delivers exceptional performance and maneuverability.</h4>
+            <button class="add-to-cart">Add to Cart</button>
+            <button class="find-in-store">Find Product in Store</button>
+
+            <p class="delivery-info">Delivery in 2-4 working days <a href="#">Shipping Info</a></p>
+        </div>
+    </div>
+</body>
+</html>

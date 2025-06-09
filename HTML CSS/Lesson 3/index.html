@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Tables, Lists ... </title>
+        <style>
+            table, th, td{
+                border: 1px solid;
+                border-collapse: collapse;
+            }            
+        </style>
+    </head>
+
+    <body>
+        <table>
+            <!-- tr - table row -->
+            <!-- th - table heading -->
+            <!-- td - table data -->
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Surname</th>
+                    <th>Address</th>
+                    <th>School</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>Meral</td>
+                    <td>Qamili</td>
+                    <td>Tearce</td>
+                    <td>Nikolla Shtejn</td>
+                </tr>
+
+                <tr>
+                    <td>Andrra</td>
+                    <td>Rexhepi</td>
+                    <td rowspan="2">Tetove</td>
+                    <td>Kiril Pejcinovic</td>
+                </tr>
+
+                <tr>
+                    <td>Albin</td>
+                    <td>Ramadani</td>
+                    <!-- <td> Nuk duhet td </td> -->
+                    <td>Nikola Shtejn</td>
+                </tr>
+
+                <!-- Shembull se cfare mundet te permbaje nje td
+                <tr>
+                    <td>
+                        <a href="https://google.com">Google</a>
+                    </td>
+                    <td>
+                        <img src="../Lesson 2/images/code.jpg" height="30">
+                    </td>
+                </tr> 
+                -->
+            </tbody>
+
+            <tfoot>
+                <tr>
+                    <!-- colspan - column span
+                        nenkupton zgjerim ne kolona -->
+                    <td colspan="4">This table is powered by Dembelat</td>
+                </tr>
+            </tfoot>
+        </table>
+
+        <!-- ul - unordered list -->
+        <!-- li - list item -->
+        <ul type="circle">
+            <li>Neapolitan Pizza</li>
+            <li>5-she me cep</li>
+            <li>Burek me mish</li>
+        </ul>
+
+        <ul type="none">
+            <li>Neapolitan Pizza</li>
+            <li>5-she me cep</li>
+            <li>Burek me mish</li>
+        </ul>
+
+        <ul type="square">
+            <li>Neapolitan Pizza</li>
+            <li>5-she me cep</li>
+            <li>Burek me mish</li>
+        </ul>
+
+
+        <!-- ol - ordered list -->
+        <ol start="50">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>PHP</li>
+        </ol>
+
+        <ol type="A">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>PHP</li>
+        </ol>
+
+        <ol type="a">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>PHP</li>
+        </ol>
+
+        <ol type="I">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>PHP</li>
+        </ol>
+
+        <ol type="i">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>PHP</li>
+        </ol>
+
+        <!-- dl - description list -->
+        <!-- dt - data term-->
+        <!-- dd - data description -->
+        <dl>
+            <dt>Pizza</dt>
+            <dd>Flour, Water, Tomato Sauce, Cheese</dd>
+
+            <dt>PC</dt>
+            <dd>The acronym PC stands for Personal Computer</dd>
+        </dl>
+
+
+        <h2 contenteditable="true">
+            This heading is editable
+        </h2>
+
+        <p contenteditable="true">
+            This paragraph is editable
+        </p>
+
+        <p>
+            Our HTML course starts at <time>10:00</time> every Saturday
+        </p>
+
+        <p>We have a meeting at 
+            <time datetime="2024-10-05 10:00">
+                10:00.
+            </time>
+        </p>
+
+
+        <label for="agon_progress">
+            Task Completion: 75%
+        </label>
+        <progress id="agon_progress" value="75" max="100">
+        </progress>
+
+        <br>
+
+        <label for="fuel_level">
+            Fuel:
+        </label>
+        <br>
+
+        <meter id="fuel_level" value="8" min="0" max="100">
+        </meter>
+
+    </body>
+</html>

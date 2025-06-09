@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bent Chetler 120 - Product Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="Img1/Atomic_ski_logo.png" width="100px" alt="Logo">
+        </div>
+    
+        <!-- Hamburger Menu Button -->
+        <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+    
+        <!-- Navigation Bar -->
+        <nav>
+            <ul class="nav-links">
+                <li><a href="home.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <script>
+            function toggleMenu() {
+                document.querySelector(".nav-links").classList.toggle("show");
+            }
+        </script>
+    </header>
+    <div class="container">
+        <div class="product-image">
+            <img src="Img1/skiprodukt.webp" width="800px" height="600px" alt="Bent Chetler 120 Skis">
+        </div>
+        <div class="product-info">
+            <h1>BENT CHETLER 120</h1>
+            <p class="price">$899.99 <span>Incl. Taxes</span></p>
+            
+            <div class="size-selector">
+                <h3>Size</h3>
+                <button>176</button>
+                <button>184</button>
+                <button>192</button>
+            </div>
+
+            <div class="add-options">
+                <button class="option-btn">Add Binding</button>
+                <button class="option-btn">Add Skin</button>
+            </div>
+<h4>The Bent Chetler 120 is an excellent choice for advanced skiers who spend their time exploring untracked terrain and looking for a ski that can handle everything from powder to light touring and off-piste challenges. It’s known for its float, maneuverability, and versatility, making it a great companion for powder hounds and freeriders.</h4>
+            <button class="add-to-cart">Add to Cart</button>
+            <button class="find-in-store">Find Product in Store</button>
+
+            <p class="delivery-info">Delivery in 2-4 working days <a href="#">Shipping Info</a></p>
+        </div>
+    </div>
+</body>
+</html>

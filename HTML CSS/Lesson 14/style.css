@@ -1,0 +1,125 @@
+div.gallery{
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 300px;
+    height: 280px;
+}
+
+div.gallery:hover{
+    border: 1px solid #777;
+}
+
+div.gallery img{
+    width: 100%;
+    height: 180px;
+}
+
+div.desc{
+    padding: 15px;
+    text-align: center;
+}
+
+div.gallery_info{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
+    font-style: italic;
+}
+
+div.left{
+    color: blue;
+}
+
+div.right{
+    color: red;
+}
+
+.sprite{
+    background: url('images/merged.png') no-repeat;
+}
+
+.bmw{
+    width: 256px;
+    height: 256px;
+    display: inline-block;
+    background-position: 0 0;
+}
+
+.mercedes{
+    width: 256px;
+    height: 256px;
+    display: inline-block;
+    background-position: -256px 0;
+}
+
+.audi{
+    width: 256px;
+    height: 256px;
+    display: inline-block;
+    background-position: 0 -256px;
+}
+
+.vw{
+    width: 256px;
+    height: 256px;
+    display: inline-block;
+    background-position: -256px -256px;
+}
+
+a[href="https://shkolladigjitale.com"]{
+    color: red;
+}
+
+/* 
+[attribute *= "value"] 
+*/
+p[class *= "ds"]{
+    background-color: blue;
+    color: white;
+    padding: 20px;
+}
+
+/* 
+[attribute ~= "value"]
+*/
+div[id ~= "ds"]{
+    background: green;
+    color: white;
+    padding: 20px;
+}
+
+/* 
+[attribute ^= "value"]
+*/
+img[title ^= "bird"]{
+    border: 5px solid blue;
+}
+
+/* 
+[attribute |= "value"]
+*/
+h1[class |= "heading"]{
+    background-color: purple;
+    padding: 20px;
+    color: white;
+}
+
+/* 
+[attribute $= "value"]
+*/
+input[placeholder $= "Name"]{
+    border: 2px solid red;
+}
+
+/* 
+[attribute]
+*/
+input[readonly]{
+    border: 2px solid green;
+}
+
+input[required]{
+    font-size: 18px;
+    background-color: rgb(225, 225, 225);
+}

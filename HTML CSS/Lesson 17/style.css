@@ -1,0 +1,142 @@
+.container{
+    display: flex;
+    background: #06206a;
+}
+
+.container div{
+    background-color: white;
+    margin: 10px;
+    padding: 20px;
+    font-size: 35px;
+}
+
+.container div:nth-child(1){
+    order: 2;
+}
+
+.container div:nth-child(2){
+    order: 3
+}
+
+.container div:nth-child(3){
+    order: 0;
+}
+
+.container div:nth-child(4){
+    order: 1;
+}
+
+.container_2{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    background: #06206a;
+}
+
+.container_2 div{
+    background-color: white;
+    margin: 10px;
+    padding: 20px;
+    font-size: 35px;
+}
+
+.container_3{
+    margin-top: 20px;
+    display: flex;
+    background: #06206a;
+}
+
+.container_3 div{
+    background-color: white;
+    margin: 10px;
+    padding: 20px;
+    font-size: 35px;
+}
+
+.container_3 div:nth-child(2){
+    /* flex-grow: <number> */
+    flex-grow: 3;
+}
+
+.container_4{
+    margin-top: 20px;
+    display: flex;
+    background: #06206a;
+    flex-wrap: wrap;
+}
+
+.container_4 div{
+    background-color: white;
+    margin: 10px;
+    padding: 20px;
+    font-size: 35px;
+    /* width: 30%; */
+    width: 150px;
+}
+
+.container_5{
+    margin-top: 20px;
+    display: flex;
+    background: #06206a;
+    justify-content: space-evenly;
+}
+
+.container_5 div{
+    background-color: white;
+    margin: 10px;
+    padding: 20px;
+    font-size: 35px;
+}
+
+.container_6{
+    margin-top: 20px;
+    display: flex;
+    background: #06206a;
+    flex-direction: row;
+    justify-content: flex-end;
+    height: 200px;
+    align-items: flex-start;
+}
+
+.container_6 div{
+    background-color: white;
+    margin: 10px;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.container_6 div:nth-child(1){
+    height: 30px;
+}
+
+.container_6 div:nth-child(2){
+    height: 80px;
+}
+
+.container_6 div:nth-child(3){
+    height: 50px;
+}
+
+.container_6 div:nth-child(4){
+    height: 110px;
+}
+
+.container_7{
+    margin-top: 20px;
+    display: flex;
+    background: #06206a;
+    flex-direction: row;
+    height: 300px;
+    align-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.container_7 div{
+    background-color: white;
+    margin: 10px;
+    padding: 20px;
+    font-size: 20px;
+    width: 200px;
+    height: 85px;
+}

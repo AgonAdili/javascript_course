@@ -1,0 +1,202 @@
+body{
+    margin: 0;
+    font-family: 'Titillium Web' sans-serif;
+}
+
+#Section_1{
+    background-color: pink;
+    height: 500px;
+}
+
+#contanier{
+    margin-left: auto;
+    margin-right: auto;
+    height: 100%;
+}
+
+header{
+    padding: 55px;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul li{
+    display: inline-block;
+    padding: 10px 13px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li.active{
+    background-color: blue;
+    border-radius: 5px;
+}
+.main_heading{
+    margin-top: 150px;
+    text-align: center;
+}
+
+.main_heading h1{
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 60px;
+}
+
+.main_heading p{
+    color: white;
+    font-size: 20;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+#Section_2{
+    background-color: purple;
+    color: white;
+}
+
+.title-box{
+    text-align: center;
+    max-width: 610px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.title-box h3 {
+    margin-top: 0px;
+    margin-bottom: 10px;
+    padding-top: 100px;
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.title-box .line{
+    width: 90px;
+    height: 5px;
+    background-color: rgba(0, 0, 0, 0.20);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Work_ending{
+    margin-top: 80px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    padding-bottom: 100px;
+}
+
+.work{
+    width: 25%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.work img{
+    margin: auto;
+}
+
+.work p{
+    font-size: 15px;
+    line-height: 25px;
+}
+
+footer{
+    background-color: blue;
+}
+
+.links{
+    display: flex;
+    justify-content: space-between;
+}
+
+footer ul{
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer p{
+    margin: 20px 20px 0 0;
+}
+
+.links ul li{
+    display: inline-block;
+}
+
+.links ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+
+header img{
+    width: 117px;
+    height: 37px;
+}
+
+@media only screen and (max-width:800px){
+    header{
+        flex-direction: column;
+    }
+
+    nav ul li {
+        width: 100%;
+        text-align: center;
+    }
+
+    header img{
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .main_heading h1{
+        font-size: 20px;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .main_heading a{
+        font-size: 15px;
+        padding: 25px;
+    }
+
+    .main_heading{
+        margin-top: 0;
+    }
+
+    nav ul li.active{
+        padding-right: 0;
+    }
+
+    nav ul{
+        padding-left: 0;
+    }
+
+    .Work_ending{
+        flex-direction: column;
+    }
+
+    .work{
+        width: 100%;
+    }
+
+    .title-box{
+        width: 90%;
+    }
+
+    footer ul{
+        flex-direction: column;
+    }
+
+    footer ul li{
+        text-align: center;
+    }
+}

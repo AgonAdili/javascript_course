@@ -1,0 +1,6 @@
+1. Inside the <body> tag, create a <header> element with a heading that says "Product Catalog."  
+2. Below the header, create a <main> element and divide it into multiple sections.  
+3. In the first section, create a table that displays product information, including the product name, price, and availability.  
+4. Populate the table with at least five different products.  
+5. In the second section, create an unordered list of product categories (e.g., electronics, clothing, accessories).  
+6. Each list item should be a link that, when clicked, scrolls to the corresponding section in the table. 

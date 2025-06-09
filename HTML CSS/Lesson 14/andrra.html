@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+    <html>
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title> (LEGENDARY A.) Game 40 </title>
+            <style>
+            *{
+            margin: 15px;
+            padding: 0;
+            box-sizing: border-box;
+            }
+            body{
+            font-family: 'Arial', sans-serif;
+            background-color: #4967a8;
+            }
+            .form_container{
+            background-color: #ffffff;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0 15px 10px rgba(0, 0, 0, 0.4);
+            width: 500px;
+            max-width: 100%;
+            }
+            h1{
+            text-align: center;
+            margin-bottom: 20px;
+            font-size: 35px;
+            }
+            .input_group{
+            margin-bottom: 20px;
+            }
+            .input_group label{
+            font-weight: bold;
+            display: block;
+            margin-bottom: 10px;
+            }
+            .input_group input{
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            font-size: 16px;
+            color: #333;
+            }
+            input[type="text"],
+            input[type="email"],
+            input[type="password"]{
+            margin-top: 5px;
+            }
+            input[type="checkbox"]{
+            /* transform: scale(1); */
+            margin-top: 10px;
+            }
+            button{
+            width: 100%;
+            padding: 12px;
+            background-color: rgb(72, 72, 122);
+            color: rgb(255, 255, 255);
+            border: none;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+            font-size: medium;
+            }
+            input[type="text"]:required,
+            input[type="email"]:required,
+            input[type="password"]:required {
+            border: 2px solid #6673b8;
+            background-color: #f7f4f4;
+            }
+            input[type="text"]:disabled,
+            input[type="email"]:disabled,
+            input[type="password"]:disabled {
+            background-color: #fffbfb;
+            border-color: #ccc;
+            cursor: not-allowed;
+            }
+            input[type="text"]:focus,
+            input[type="email"]:focus,
+            input[type="password"]:focus {
+            border-color: #6673b8;
+            outline: none;
+            box-shadow: 0 0 5px #6673b8;
+            }
+            button:focus{
+            box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+            }
+            button:hover{
+                background-color: #333;
+            }
+            #newsletter_group{
+                display: flex;
+                padding: 10px;
+                border: 1px solid #ccc;
+                border-radius: 4px;
+                font-size: 16px;
+                color: #333;
+            }
+            </style>
+        </head>
+        <body>
+            <div class="form_container">
+                <h1> Create A MaZM Account </h1>
+                <form action="#" method="post">
+                <div class="input_group">
+                    <label for="username"> Username: </label>
+                    <input type="text" id="username" name="username" required placeholder="Enter your username">
+                </div>
+                <div class="input_group">
+                    <label for="email"> Email: </label>
+                    <input type="email" id="email" name="email" required placeholder="Enter your email">
+                </div>
+                <div class="input_group">
+                    <label for="password"> Password: </label>
+                    <input type="password" id="password" name="password" required placeholder="Enter your password">
+                </div>
+                <div class="input_group">
+                    <label for="confirm-password"> Confirm Your Password: </label>
+                    <input type="password" id="confirm-password" name="confirm-password" required placeholder="Confirm your password">
+                </div>
+                <div id="newsletter_group">
+                    <label for="newsletter"> Subscribe To Our Weekly Newsletter: </label>
+                    <input type="checkbox" id="newsletter" name="newsletter">
+                </div>
+                <div class="input_group">
+                    <label for="address"> Shipping Address: </label>
+                    <input type="text" id="address" name="address" disabled placeholder="This field is disabled">
+                </div>
+                <div class="input_group">
+                    <button type="submit"> Submit </button>
+                </div>
+                </form>
+            </div>
+        </body>
+    </html>

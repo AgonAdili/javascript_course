@@ -1,0 +1,77 @@
+h5{
+    color: green;
+    font-size: 25px;
+    /* font-size: 2rem; */ 
+                  /* 1rem = 16px */
+}
+
+p{
+    /* margin-left: auto;
+    margin-top: 50%;
+    margin-right: 100px;
+    margin-bottom: inherit; */
+
+         /* top right bottom left */
+    margin: 20px 80px 20px 0;
+
+    /* margin: 20px;    nenkupton se elementi do kete margin 20px ne cdo ane */ 
+
+    /* margin: 20px 50px 70px;  
+               nenkupton se margin-top do jete 20px 
+                            margin-bottom do jete 70px 
+                            margin-right edhe margin-left do jene 50px */
+}
+
+/* 
+.test{
+    color: blue;
+} 
+*/
+
+#shembull_padding{
+    width: 300px;
+    height: 80px;
+    background-color: powderblue;
+
+    margin-left: 50px;
+    padding-left: 30px;
+}
+
+#shembull_width{
+    max-width: 900px;
+    height: 200px;
+    background-color: darksalmon;
+    background-color: rgb(199, 8, 8);
+}
+
+#box_model{
+    width: 300px;
+    border: 15px solid green;
+    padding: 50px;
+    margin: 20px;
+}
+
+#ngjyrat{
+    font-size: 18px;
+    /* color: blue; */ /* Metoda e 1 */
+    /* color: rgb(0, 130, 255) */ /* Metoda e 2*/
+    color: #ff0000;
+}
+
+#div_1{
+    padding-left: 10px;
+    color: white;
+    background: url("cat.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    height: 650px;
+    width: 435px;
+
+    border: 5px double greenyellow;
+    /*
+    border-width: 5px;
+    border-style: double;
+    border-color: greenyellow;
+    */
+}

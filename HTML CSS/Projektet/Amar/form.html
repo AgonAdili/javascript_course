@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking Form</title>
+    <link rel="stylesheet" href="form.css">
+    <link rel="icon" href="images/letter-h.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+<body>
+  <nav id="home">
+    <div class="nav__logo">
+      <a href="#">ETERNAL HORIZONS</a>
+    </div>
+  
+    <input type="checkbox" id="menu-toggle" class="menu-checkbox">
+    <label for="menu-toggle" class="menu__toggle">
+      <i class="fa-solid fa-bars"></i>
+    </label>
+  
+    <ul class="nav__links">
+      <li><a href="index.html" class="link">Home</a></li>
+      <li><a href="index.html" class="link">Blog</a></li>
+      <li><a href="index.html" class="link">Offers</a></li>
+      <li><a href="index.html" class="link">Services</a></li>
+      <li><a href="form.html" class="link">Contacts</a></li>
+    </ul>
+  </nav>
+
+        <div class="form">
+            <h1>Book With Us</h1>
+        <h5>Lets Book your trip!</h5>
+    <form>
+        <label for="first-name">First Name:</label><br><br>
+        <input type="text" id="first-name" name="first-name"required><br><br>
+
+        <label for="last-name">Last Name:</label>
+        <input type="text" id="last-name" name="last-name" required><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required><br><br>
+
+        <label for="gender">Gender:</label>
+        <input type="radio" id="gender" name="gender" required>Male
+        <input type="radio" id="gender" name="gender" required>Female<br>
+
+        <input type="submit" value="Submit">
+    </form>
+</div>
+</body>
+</html>

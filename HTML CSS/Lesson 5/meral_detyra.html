@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Web Conference Registration</title>
+</head>
+
+<body>
+    <form>
+        <fieldset>
+            <legend>Personal Information:</legend>
+            <label for="firstname">First Name:</label><br>
+            <input type="text" id="firstname" name="firstname" placeholder="First Name" size="30" required>
+
+            <br>
+
+
+            <label for="lastname">Last Name:</label><br>
+            <input type="text" id="lastname" name="lastname" placeholder="Last Name" size="25" required>
+
+            <br>
+
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" placeholder="Email">
+
+            <br>
+
+            <label for="password">Password</label><br>
+            <input type="password" id="password" name="password" placeholder="Password">
+            <br>
+
+            <label for="phone number">Phone number</label><br>
+            <input type="phone number" id="phone number" name="phone number" placeholder="+389 x x-x x x-x x x">
+
+            <br><br>
+
+
+            <label>Choose occupation:</label><br>
+            <select id="occupation" name="occupation">
+                <option value="None">
+                    None
+                </option>
+
+                <option value="Student">
+                    Student
+                </option>
+
+                <option value="Proffesional">
+                    Professional
+
+                </option>
+
+                <option value="Entrepreneur" required>
+                    Entrepreneur
+
+
+                </option>
+
+
+
+            </select>
+            <br><br>
+
+            <label>Registration type </label><br>
+            <input type="radio" id="General Pass" name="Registration type" value="General Pass">
+            <label for="General Pass">General Pass</label><br>
+
+            <input type="radio" id="VIP Pass" name="Registration type" value="VIP Pass">
+            <label for="VIP Pass">VIP Pass</label>
+
+            <br>
+            <br>
+
+            <label>Do You Agree:</label><br>
+            <input type="checkbox" id="Yes" name="Yes" value="Yes">
+            <label for="Yes">
+                Yes</label><br>
+
+            <input type="checkbox" id="No" name="No" value="No">
+            <label for="No">
+                No
+
+
+            </label><br>
+
+            <br>
+
+            <label>
+                <input type="checkbox">
+                I have read and understood the <a href="https://google.com"> terms and conditions </a> of this web
+                conference
+            </label>
+
+            <br><br>
+
+            <input type="submit" id="submit" name="submit">
+        </fieldset>
+    </form>
+</body>
+</html>

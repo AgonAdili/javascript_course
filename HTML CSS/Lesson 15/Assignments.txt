@@ -1,0 +1,18 @@
+Build a simple weather dashboard with:
+    A dropdown to select a city.
+    Tooltips to explain weather icons or terms.
+    Borders for dividing sections like current weather and forecast.
+    A box-shadow effect to highlight the current day.
+--------------------------------------------------------------------
+Build a stylish form with:
+    Borders for input fields with color changes on focus.
+    Dropdown menus for fields like "City" or "Job Title".
+    Shadow effects on the submit button.
+    Tooltips for input field guidelines (e.g., password rules).
+    Forgot password link and FAQ link (include tooltips for the FAQs) - Frequently Asked Questions
+--------------------------------------------------------------------
+Design a recipe webpage with:
+    A dropdown for selecting different recipes or categories.
+    Borders around ingredient lists.
+    A shadow effect on the main recipe image.
+    Tooltips for measurement conversions or cooking tips.

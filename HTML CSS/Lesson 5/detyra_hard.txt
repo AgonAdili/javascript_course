@@ -1,0 +1,8 @@
+HOMEWORK --> HARD:
+Insert a heading that says "Web Conference Registration" using appropriate heading tags.
+Create a <form> element to contain the registration form.
+Include input fields for the attendee's name, email address, and phone number. Apply appropriate input attributes for validation (e.g., required, pattern).
+Add a dropdown menu for the attendee to select their occupation. Include options such as "Student," "Professional," and "Entrepreneur."
+Implement radio buttons for the attendee to choose their registration type: "General Pass" or "VIP Pass."
+Include a checkbox to confirm that the attendee agrees to the terms and conditions of the conference.
+Insert a submit button to submit the form.

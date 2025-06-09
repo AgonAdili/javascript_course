@@ -1,0 +1,224 @@
+body{
+    margin: 0px;
+}
+#translate{
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+    color: white;
+    background-color: #00014e;
+    /* translate() perdoret per ta levizur nje div ne boshtet x dhe y. 
+    psh.       translate(x,     y) */
+    transform: translate(150px, 50px);
+    padding: 10px;
+}
+
+#rotate{
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+    color: white;
+    background-color: #00014e;
+    margin-top: 60px;
+    padding: 10px;
+    transform: rotate(90deg);
+}
+
+#scale{
+    width: 150px;
+    height: 150px;
+    border-radius: 5px;
+    color: white;
+    background-color: #00014e;
+    margin: 100px;
+    padding: 10px;
+    /* scale() metoda perdoret per ta rrit ose zvogeluar nje element; 
+    scale(x, y) ku x nenkupton sa here duam ta zmadhojme gjeresine e elementit dhe y nenkupton sa here duam ta zmadhojme lartesine e elementit. */
+    transform: scale(2, 2);
+}
+
+#scaleX{
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+    color: white;
+    background-color: #00014e;
+    padding: 10px;
+    margin-left: 240px;
+    /* scaleX() perdoret per te zmadhuar/zvogluar elementin ne boshtin X */
+    transform: scaleX(3);
+}
+
+#scaleY{
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+    color: white;
+    background-color: #00014e;
+    padding: 10px;
+    margin-top: 120px;
+    /* scaleY() perdoret per te zmadhuar/zvogluar elementin ne boshtin Y */
+    transform: scaleY(2);
+}
+
+#skewX{
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+    color: white;
+    background-color: #00014e;
+    margin: 130px 130px 50px 130px;
+    padding: 10px;
+    /* skewX() metoda perdoret per pjerrtesim te elementit ne boshtin X */
+    transform: skewX(25deg);
+}
+
+#skewY{
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+    color: white;
+    background-color: #00014e;
+    margin-left: 180px;
+    padding: 10px;
+    /* skewX() metoda perdoret per pjerrtesim te elementit ne boshtin Y */
+    transform: skewY(25deg);
+}
+
+#Transformimet_2D{
+    margin: 0px;
+    background-color: lightblue;
+    padding: 40px;
+}
+
+#Transformimet_2D h1{
+    margin: 0px;
+}
+
+#rotateX{
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+    color: white;
+    background-color: #00014e;
+    margin: 50px;
+    padding: 10px;
+    transform: rotateX(150deg);
+}
+
+#rotateY{
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+    color: white;
+    background-color: #00014e;
+    margin: 50px;
+    padding: 10px;
+    transform: rotateY(150deg);
+}
+
+#rotateZ{
+    width: 150px;
+    height: 150px;
+    border-radius: 5px;
+    color: white;
+    background-color: #00014e;
+    margin: 50px;
+    padding: 10px;
+    transform: rotateZ(45deg);
+}
+
+#Transformimet_3D{
+    background-color: lightpink;
+    padding: 40px;
+    margin: 0;
+}
+
+#Transformimet_3D h1{
+    margin: 0px;
+}
+
+#box{
+    width: 200px;
+    height: 200px;
+    background: red;
+    transition: background 0.3s, border-radius 2s;
+    transition-timing-function: linear;
+    transition-delay: 2s;
+    /* linear - do e kete te njejten transition speed 
+                prej  fillimi deri ne fund 
+       
+       ease - do filloje ngadale, do i rritet shpejtesia 
+              dhe do perfundoje ngadale
+
+       ease-in - do kete nje fillim te ngadalte
+
+       ease-out - do kete nje mbarim te ngadalte
+
+       ease-in-out - do kete fillim dhe mbarim te ngadalte
+
+       cubiz-bezier(n, n, n, n) - mundeni ti definoni vete
+                                  vlerat te funksioni.
+    */
+
+}
+
+#box:hover{
+    background: blue;
+    border-radius: 50%;
+}
+
+/* Zoom In Transition */
+#chameleon img{
+    transform: scale(1);
+    transition: .3s ease-in-out;
+}
+
+#chameleon img:hover{
+    transform: scale(1.3);
+}
+
+/* Slide Transition */
+#parrot img{
+    margin-left: 0px;
+    transition: .3s ease-in-out;
+}
+
+#parrot img:hover{
+    margin-left: 30px;
+}
+
+/* Blur Transition */
+#panda img{
+    filter: blur(3px);
+    transition: .3s ease-in-out;
+}
+
+#panda img:hover{
+    filter: blur(0);
+}
+
+/* Gray Scale Transition */
+#golden_eagle img{
+    filter: grayscale(100%);
+    transition: .3s ease-in-out;
+}
+
+#golden_eagle img:hover{
+    filter: grayscale(0);
+}
+
+.element{
+    width: 200px;
+    height: 200px;
+    animation: pulse 1s infinite;
+}
+
+@keyframes pulse {
+    0% {
+        background-color: blue;
+    }
+    100% {
+        background-color: red;
+    }
+}

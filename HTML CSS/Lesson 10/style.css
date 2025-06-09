@@ -1,0 +1,70 @@
+h1{
+    color: red;
+    letter-spacing: 5px;
+    word-spacing: 10px;
+
+    font-family: 'Courier New', Courier, monospace;
+    /* font-family: 'Times New Roman', 'Arial', Helvetica; */
+}
+
+p{
+    text-indent: 50px;
+    text-align: center;
+}
+
+h2{
+    text-decoration: overline;
+}
+
+h3{
+    text-decoration: line-through;
+}
+
+h4{
+    text-decoration: underline;
+    writing-mode: vertical-lr; 
+    /* horizontal-tb edhe vertical-rl */
+    font-weight: 900;
+    font-size: 30px;
+}
+
+img{
+    margin-top: 30px;
+    height: 350px;
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+                     /* x   y,  x1  y1,  x2   y2 */
+                     /* pika1,   pika2,   pika3 */
+    /* clip-path: circle(50%); */
+}
+
+@font-face {
+    font-family: 'Silver Christmas';
+    src: url(fonts/Silver\ Christmas.otf);
+}
+
+#font_test{
+    font-family: 'Silver Christmas';
+    font-size: 100px;
+    /* font-style: italic; */
+    font-style: oblique;
+}
+
+.christmas_text{
+    font-size: 80px;
+    font-family: 'Silver Christmas' !important;
+    color: blue !important;
+}
+
+a:link{
+    color: red;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+a:hover{
+    color: greenyellow;
+}
+
+a:visited{
+    color: rgb(128, 0, 0);
+}

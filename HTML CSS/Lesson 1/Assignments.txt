@@ -1,0 +1,29 @@
+Easy:
+    Create a new HTML file with the extension ".html".
+    Set up the basic structure of an HTML document using appropriate tags.
+    Add a title to your document using the <title> tag.
+    Insert a heading that says "My First Web Page" using appropriate heading tags.
+    Write a paragraph introducing yourself.
+
+Medium: 
+    1. Start with a new HTML file and set up the basic structure.  
+    2. Create a <header> element and include a heading that says "My Website." 
+    3. Inside the header, add a navigation menu with three links: "Home," "About," and "Contact." 
+    4. Create a main content section using the <main> element.  
+    5. Within the main content, add a section with an id of "about" and include a heading that says "About Me."  
+    6. Write a paragraph describing your hobbies and interests. 
+    7. Below the "about" section, add another section with an id of "contact" and a heading that says "Contact Me."  
+    8. Insert a form with fields for name, email, and a submit button.  
+    9. Make sure to use appropriate HTML elements and attributes to structure your content effectively. Best of luck!
+
+Hard:
+    1. Create a new HTML file and set up the basic structure. 
+    2. Inside the <body> tag, insert a <header> element with a heading that says "My Blog." 
+    3. Below the header, create a <main> element and divide it into two columns.  
+    4. In the left column, add a section with a heading that says "Latest Post."  
+    5. Within this section, write a blog post using appropriate headings and paragraphs. 
+    6. Format the blog post by adding bold and italicized text, as well as an unordered list with three items.
+    7. In the right column, add a section with a heading that says "Quote of the Day."  
+    8.Include a meaningful quote using the <blockquote> and <q> tags. 
+    9. Finally, add comments throughout your HTML code to explain the purpose of each section and element. 
+    10. Remember, attention to detail is key in this challenge. Aim for clean and well-structured HTML code.
