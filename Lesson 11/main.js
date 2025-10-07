@@ -21,3 +21,24 @@
 //     .find('span')
 //     .attr('title', 'I am a tooltip');
 
+$(".hidden").show('slow');
+
+// $('selector expression').animate({
+//                                  propertyName: 'value',
+//                                  propertyName: 'value'
+//                                  })
+
+$('.square').animate({
+    width: '200px',
+    height: '200px'
+})
+
+$('.testing').animate({
+    width: '+=100px',
+    fontSize: '20px',
+    opacity: 0.80,
+}, 
+3000
+).css({
+    color: 'white'
+})

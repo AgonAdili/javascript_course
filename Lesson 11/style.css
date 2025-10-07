@@ -3,3 +3,21 @@
     color: red;
     font-size: 20px;
 }
+
+.hidden{
+    height: 100px;
+    width: 200px;
+    margin-top: 20px;
+    background-color: red;
+    display: none;
+}
+
+.square{
+    background-color: blue;
+}
+
+.testing{
+    width: 200px;
+    height: 100px;
+    background-color: purple;
+}
