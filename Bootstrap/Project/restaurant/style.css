@@ -1,0 +1,10 @@
+.services:hover {
+    background-color: #fac000;
+    transition: ease-in 0.3s;
+    cursor: pointer;
+}
+
+.services:hover i {
+    color: white !important;
+    transition: ease-in 0.3s;
+}

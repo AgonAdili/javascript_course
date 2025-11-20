@@ -1,0 +1,54 @@
+INTERMEDIATE - Multi-Page Company Website
+Requirements:
+1. Home Page
+    Carousel or hero banner
+    Highlight services with Bootstrap cards
+    Grid layout for featured products or team members
+
+2. About Page
+    Multi-column layout
+    Bootstrap accordion or tabs
+    Timeline or mission statement
+
+3. Services or Products Page
+    Cards, lists, or pricing tables
+    Use Bootstrap modals for extra info
+    At least 6 items presented in a responsive grid
+
+4. Contact Page
+    Fully styled Bootstrap form
+    Embedded Google Map (optional)
+    Contact info section using list groups or cards
+
+5. Extra Components (must include at least 3)
+    Carousel
+    Accordion
+    Modal
+    Offcanvas
+    Toasts
+    Tabs/pills
+    Collapse
+
+--------------------------------------------
+---------- Technical Requirements ----------
+
+Fully responsive on mobile, tablet, desktop
+Uses:
+    Bootstrap grid
+    Breakpoints
+    Cards and utility classes
+    Forms & components
+    Custom CSS file (for fine-tuning)
+Navigation must work correctly between pages
+Use at least one custom color theme or custom spacing tweaks
+Clean and organized folder structure (css/, js/, img/)
+
+
+--------------------------------------------
+
+EXTRA:
+    Add a dark/light mode toggle
+    Use Bootstrap Icons for UI polish
+    Add animations (AOS library or CSS transitions)
+    Add a pricing table
+    Create a blog page layout

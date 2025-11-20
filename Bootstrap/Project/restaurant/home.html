@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DS Restaurant</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top shadow">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="logo.png" width="80px" alt="logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Menus</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container-fluid g-0">
+        <div class="row g-0">
+            <div class="col">
+                <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="slide1.webp" height="600px" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>First slide label</h5>
+                                <p>Some representative placeholder content for the first slide.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="slide2.jpg" height="600px" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Second slide label</h5>
+                                <p>Some representative placeholder content for the second slide.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="slide3.jpg" height="600px" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Third slide label</h5>
+                                <p>Some representative placeholder content for the third slide.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <h1 class="text-center mt-5 mb-3">What we offer</h1>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-12 col-lg-4 mb-3 mb-lg-0">
+                <div class="card p-4 shadow border border-warning services">
+                    <i class="fa-solid fa-utensils fa-3x text-warning my-3"></i>
+                    <h2>Dine-in</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore quas quidem ex odit molestiae
+                        neque vero autem quisquam, voluptas laborum eaque vel ea magnam dolore impedit repellendus
+                        nostrum fuga! Odio?</p>
+                </div>
+            </div>
+            <div class="col-12 col-lg-4 mb-3 mb-lg-0">
+                <div class="card p-4 shadow border border-warning services">
+                    <i class="fa-solid fa-martini-glass-citrus fa-3x text-warning my-3"></i>
+                    <h2>Bar</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore quas quidem ex odit molestiae
+                        neque vero autem quisquam, voluptas laborum eaque vel ea magnam dolore impedit repellendus
+                        nostrum fuga! Odio?</p>
+                </div>
+            </div>
+            <div class="col-12 col-lg-4 mb-3 mb-lg-0">
+                <div class="card p-4 shadow border border-warning services">
+                    <i class="fa-solid fa-bowl-food fa-3x text-warning my-3"></i>
+                    <h2>Cattering</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore quas quidem ex odit molestiae
+                        neque vero autem quisquam, voluptas laborum eaque vel ea magnam dolore impedit repellendus
+                        nostrum fuga! Odio?</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container my-5">
+        <div class="row">
+            <div class="col-12 col-lg-8">
+                <h2>About us</h2>
+                <p>
+                    Our restaurant began as an improvised idea — a small gathering where friends came together to share
+                    homemade recipes, laughter, and stories around the table. What started with a few dishes cooked in a
+                    modest kitchen quickly grew into something more meaningful: a place where creativity in food and a
+                    love for people could come alive.
+                    We believe food doesn’t have to be complicated to be memorable. That’s why our menu is inspired by
+                    fresh, seasonal ingredients and simple techniques, with a touch of improvisation that keeps things
+                    unique. Every dish we prepare is a reflection of our passion, made to feel like a meal shared at
+                    home — warm, authentic, and full of flavor.
+                </p>
+                <hr>
+                <div class="btn btn-warning btn-lg">About us</div>
+            </div>
+            <div class="col-12 col-lg-4 mt-5 mt-lg-0">
+                <img src="cheff.jpg" class="w-100" alt="">
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid g-0">
+        <div class="row g-0">
+            <div class="col-12">
+                <div class="bg-dark pb-5">
+                    <h2 class="text-white text-center pt-5 pb-2">Do you want to book a table?</h2>
+                    <p class="text-white text-center">Please choose a date and time from the options below!</p>
+                    <!-- Button trigger modal -->
+                    <div class="text-center">
+                        <button type="button" class="btn btn-warning" data-bs-toggle="modal"
+                            data-bs-target="#exampleModal">
+                            Book a table
+                        </button>
+                    </div>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="exampleModalLabel">Book a table</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="row">
+                                        <div class="col-12 col-lg-6">
+                                            <input type="text" placeholder="Fullname" class="form-control mb-4">
+                                        </div>
+                                        <div class="col-12 col-lg-6">
+                                            <input type="text" placeholder="Phone" class="form-control mb-4">
+                                        </div>
+                                        <div class="col-12 col-lg-6">
+                                            <input type="datetime-local" placeholder="Fullname"
+                                                class="form-control mb-4">
+                                        </div>
+                                        <div class="col-12 col-lg-6">
+                                            <select class="form-control mb-4">
+                                                <option value="">Nr. of Guests</option>
+                                                <option value="1">1</option>
+                                                <option value="2">2</option>
+                                                <option value="3">3</option>
+                                                <option value="4">4</option>
+                                                <option value="5">5</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-dark" data-bs-dismiss="modal">Close</button>
+                                    <button type="button" class="btn btn-warning">Book</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <p class="text-center text-white pt-5">Or using the following options:</p>
+
+                    <div class="text-center">
+                        <a href="tel:38971100200" class="btn btn-warning">
+                            <i class="fa fa-phone"></i>
+                            Call us
+                        </a>
+                        <a href="https://wa.me/38971201577" class="btn btn-warning" target="_blank">
+                            <i class="fa-brands fa-whatsapp"></i>
+                            Whatsapp
+                        </a>
+                        <a href="https://facebook.com" class="btn btn-warning" target="_blank">
+                            <i class="fa-brands fa-facebook"></i>
+                            Facebook
+                        </a>
+                    </div>
+
+
+                </div>
+            </div>
+
+            <div class="col-12">
+                <div class="container mt-5">
+                    <h1 class="text-center my-3">Meet our team</h1>
+                    <div class="row">
+                        <div class="col-12 col-md-6 col-lg-3">
+                            <div class="card text-center">
+                                <img src="cheff.jpg" class="w-100" alt="">
+                                <h3>Visar S.</h3>
+                                <p>Waiter</p>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-3">
+                            <div class="card text-center">
+                                <img src="cheff.jpg" class="w-100" alt="">
+                                <h3>Duran F.</h3>
+                                <p>Waiter</p>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-3">
+                            <div class="card text-center">
+                                <img src="cheff.jpg" class="w-100" alt="">
+                                <h3>Dhurata H.</h3>
+                                <p>Cheff</p>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-3">
+                            <div class="card text-center">
+                                <img src="cheff.jpg" class="w-100" alt="">
+                                <h3>Anida A.</h3>
+                                <p>Cheff</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12">
+                <div class="container my-3">
+                    <div class="row">
+                        <div class="col-12 col-lg-6">
+                            <form class="bg-dark p-4 rounded">
+                                <h2 class="text-center text-white">Send message</h2>
+                                <label class="text-white">Enter you name</label>
+                                <input type="text" placeholder="Name" class="form-control w-100">
+
+                                <label class="text-white mt-2">Enter you lastname</label>
+                                <input type="text" placeholder="Lastname" class="form-control w-100">
+
+                                <label class="text-white mt-2">Enter subject</label>
+                                <input type="text" placeholder="Subject" class="form-control w-100">
+
+                                <label class="text-white mt-2">Enter your message</label>
+                                <textarea class="form-control w-100"></textarea>
+
+                                <div class="btn btn-warning mt-4">Send message</div>
+
+                            </form>
+                        </div>
+                        <div class="col-12 col-lg-6">
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2964.445398369835!2d20.96897327556741!3d42.01217665700976!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1353f1a9aea267bd%3A0x18b4e25b142c30b6!2sDigital%20School%20Tetovo!5e0!3m2!1sen!2smk!4v1760111446489!5m2!1sen!2smk"
+                                width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="w-100 bg-warning shadow p-4">
+        <p class="text-center">Made with <i class="fa fa-heart text-danger"></i> by Digital School</p>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

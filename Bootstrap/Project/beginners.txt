@@ -1,0 +1,50 @@
+BEGINNER - Personal Portfolio Website (One-Page)
+Requirements:
+1. Navbar
+    Responsive Bootstrap navbar
+    Includes links to each section
+    Collapses into hamburger on mobile
+
+2. Hero Section
+    Full-width background or image
+    Centered title + subtitle
+    A call-to-action button
+
+3. About Section
+    Bootstrap grid (2 columns on desktop, 1 column on mobile)
+    Text + image
+
+4. Skills Section
+    Use Bootstrap cards or progress bars
+    Minimum 4 skills
+
+5. Projects Section
+    Grid layout using .row and .col
+    At least 3 project cards with:
+    Image
+    Title
+    Description
+    Button or link
+
+6. Contact Section
+    Bootstrap form
+    Inputs: name, email, message
+    Styled using form classes
+
+7. Footer
+    Simple Bootstrap footer
+    Social icons using Bootstrap Icons (optional)
+
+
+--------------------------------------------
+---------- Technical Requirements ----------
+
+Must be fully responsive
+Must use:
+    Bootstrap grid system
+    Cards
+    Buttons
+    Navbar
+    At least one utility class (p-, m-, d-*)
+
+No frameworks other than Bootstrap !!!
